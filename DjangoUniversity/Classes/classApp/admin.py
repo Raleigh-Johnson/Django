@@ -1,10 +1,8 @@
 from django.contrib import admin
+from .models import djangoClasses
 from  . import models
 
-class Person(admin.Person):
-    pass
 
-
-admin.site.register(Person)
+admin.site.register(djangoClasses)
 
 # Register your models here.
